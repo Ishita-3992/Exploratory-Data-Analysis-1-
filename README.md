@@ -4,7 +4,7 @@
 
 This project explores a fundamental data science workflow using the question: "If I study more, will I get a higher grade?" The workflow involves data cleaning, exploratory data analysis (EDA), applying machine learning techniques, and deriving insights from the data.
 
-### Steps Followed
+### Steps Followed:
 
 ### Data Cleaning
 
@@ -32,21 +32,17 @@ Outliers were identified, such as unrealistic grades exceeding 100.
 
 Implemented a linear regression model to encode the observed relationship between hours studied and grades.
 
-Derived a mathematical equation for the relationship: y=mx+c
-
-Where  is the slope (rate of grade improvement per hour studied) and  is the intercept.
+Derived a mathematical equation for the relationship: y=mx+c, where 'm' is the slope (rate of grade improvement per hour studied) and 'c' is the intercept.
 
 ### Visualization of the Relationship
 
-Highlighted abnormal data points (outliers) using boxpot
+Highlighted abnormal data points (outliers) using boxpot.
 
 ### Outlier Analysis
 
 Used statistical methods (IQR) to detect and analyze outliers.
 
 Addressed outliers by either capping them within valid ranges or removing them, depending on their nature.
-
-### Technologies Used
 
 ### Programming Language: Python
 
